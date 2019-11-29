@@ -13,3 +13,6 @@ Meteor.startup(() => {
 // Type in command 'meteor remove blaze-html-templates' to remove Blaze .html templates
 // Type in command 'meteor add static-html' to enable static .html templates
 // Type in command 'meteor remove insecure' to remove this package that allows the client to directly edit the database
+// Type in command 'meteor remove autopublish' to remove this package that synchronizes all of the database contents to the 
+// client (i.e. the server must explicitly send the contents to the client via 'publish' and 'subscribe')
+// Type in command 'meteor npm install --save classnames' for this classnames package, whatever it is
